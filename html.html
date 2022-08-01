@@ -65,7 +65,7 @@
 
       #nav a:hover {
         color: black;
-        background: rgb(50, 138, 189);
+        background: rgb(9, 114, 23);
         border-radius: 50px;
       }
       #title a h4 {
@@ -76,12 +76,28 @@
         color: black;
       }
       #leftsidebar a:hover {
-        background: rgb(50, 138, 189);
+        background: rgb(9, 114, 23);
+        color: white;
       }
-      /* #main-content {
+      #main-content {
         height: 100%;
         overflow-y: scroll;
-      } */
+      }
+      #next-btn {
+        margin-left: 500px;
+      }
+      .html-code {
+        padding: 20px;
+      }
+      .html-tag {
+        color: aqua;
+      }
+      .code-text {
+        color: #ff9999;
+      }
+      .text {
+        color: #dddddd;
+      }
     </style>
   </head>
   <body>
@@ -180,98 +196,88 @@
           <br />
           <a href="#">HTML CSS</a>
         </div>
+
         <!--Contains the main content
 					of the webpage-->
         <div class="col-8" style="text-align: justify" id="main-content">
-          Bootstrap is a free and open-source tool collection for creating
-          responsive websites and web applications. It is the most popular HTML,
-          CSS, and JavaScript framework for developing responsive, mobile-first
-          web sites. Bootstrap is a free and open-source tool collection for
-          creating responsive websites and web applications. It is the most
-          popular HTML, CSS, and JavaScript framework for developing responsive,
-          mobile-first web sites. Bootstrap is a free and open-source tool
-          collection for creating responsive websites and web applications. It
-          is the most popular HTML, CSS, and JavaScript framework for developing
-          responsive, mobile-first web sites. Bootstrap is a free and
-          open-source tool collection for creating responsive websites and web
-          applications. It is the most popular HTML, CSS, and JavaScript
-          framework for developing responsive, mobile-first web sites. Bootstrap
-          is a free and open-source tool collection for creating responsive
-          websites and web applications. It is the most popular HTML, CSS, and
-          JavaScript framework for developing responsive, mobile-first web
-          sites. Bootstrap is a free and open-source tool collection for
-          creating responsive websites and web applications. It is the most
-          popular HTML, CSS, and JavaScript framework for developing responsive,
-          mobile-first web sites. Bootstrap is a free and open-source tool
-          collection for creating responsive websites and web applications. It
-          is the most popular HTML, CSS, and JavaScript framework for developing
-          responsive, mobile-first web sites. Bootstrap is a free and
-          open-source tool collection for creating responsive websites and web
-          applications. It is the most popular HTML, CSS, and JavaScript
-          framework for developing responsive, mobile-first web sites. Bootstrap
-          is a free and open-source tool collection for creating responsive
-          websites and web applications. It is the most popular HTML, CSS, and
-          JavaScript framework for developing responsive, mobile-first web
-          sites.
+          <!-- previous next button -->
+          <div class="mt-5">
+            <h2>HTML Tutorial</h2>
+            <a href="#" class="btn btn-success mt-3"
+              ><i class="fa-solid fa-angles-left"></i> ‌ရှေ့သင်ခန်းစာ</a
+            >
+            <a href="#" class="btn btn-success mt-3" id="next-btn"
+              >နောက်သင်ခန်းစာ <i class="fa-solid fa-angles-right"></i
+            ></a>
+          </div>
+          <!-- previous next button -->
+
+          <!-- what is html -->
+          <div class="mt-5">
+            <h2>What is HTML</h2>
+            <p>
+              HTML သည် ဝဘ်စာမျက်နှာများအတွက် စံသတ်မှတ်ထားသော ဘာသာစကားဖြစ်သည်။
+            </p>
+            <p>HTML ဖြင့် သင့်ကိုယ်ပိုင် Website ကို ဖန်တီးနိုင်သည်။</p>
+            <p>HTML သည် လေ့လာရန်လွယ်ကူသည် - သင်နှစ်သက်လိမ့်မည်။</p>
+            <a href="#" class="btn btn-success mt-3"
+              >HTML လေ့ကျင့်ခန်းများ <i class="fa-solid fa-angles-right"></i
+            ></a>
+          </div>
+          <!-- what is html -->
+
+          <!-- html example -->
+          <div class="mt-5">
+            <h2>HTML ဖြင့် အလွယ်တကူ သင်ယူပါ</h2>
+            <p class="mt-3">
+              "သင်ကိုယ်တိုင်ကြိုးစားပါ" တည်းဖြတ်ခြင်းဖြင့်၊ သင်သည် HTML ကုဒ်ကို
+              တည်းဖြတ်နိုင်ပြီး ရလဒ်ကို ကြည့်ရှုနိုင်သည်
+            </p>
+            <h3>နမူနာ</h3>
+            <div class="html-code bg-dark">
+              <span class="html-tag"
+                >&lt;<span class="code-text">!DOCTYPE html</span>&gt;</span
+              ><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">html</span>&gt;</span
+              ><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">title</span>&gt;<span class="text"
+                  >HTML Tutorial</span
+                >&lt;<span class="code-text">/title</span>&gt;</span
+              ><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">body</span>&gt;</span
+              ><br /><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">h1</span>&gt;<span class="text"
+                  >This is a heading</span
+                >&lt;<span class="code-text">/h1</span>&gt;</span
+              ><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">p</span>&gt;<span class="text"
+                  >This is a paragraph</span
+                >&lt;<span class="code-text">/p</span>&gt;</span
+              ><br /><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">/body</span>&gt;</span
+              ><br />
+              <span class="html-tag"
+                >&lt;<span class="code-text">/html</span>&gt;</span
+              >
+            </div>
+            <a href="#" class="btn btn-success mt-3"
+              >သင်ကိုယ်တိုင်စမ်းကြည့်ပါ <i class="fa-solid fa-angles-right"></i
+            ></a>
+          </div>
+          <!-- html example -->
         </div>
+        <!--Contains the main content
+					of the webpage-->
+
         <div class="col-2" id="rightsidebar">
-          <h4>Sidebar</h4>
+          <h4>ကြော်ငြာပါ</h4>
           <!-- Navigation links in sidebar-->
-          <a href="#">HTML Intro</a>
-          <br />
-          <a href="#">HTML Editors</a>
-          <br />
-          <a href="#">HTML Basics</a>
-          <br />
-          <a href="#">HTML Element</a>
-          <br />
-          <a href="#">HTML Headings</a>
-          <br />
-          <a href="#">HTML Paragraph</a>
-          <br />
-          <a href="#">HTML Style</a>
-          <br />
-          <a href="#">HTML Format</a>
-          <br />
-          <a href="#">HTML Comment</a>
-          <br />
-          <a href="#">HTML Color</a>
-          <br />
-          <a href="#">HTML Link</a>
-          <br />
-          <a href="#">HTML Image</a>
-          <br />
-          <a href="#">HTML Table</a>
-          <br />
-          <a href="#">HTML List</a>
-          <br />
-          <a href="#">HTML Class</a>
-          <br />
-          <a href="#">HTML Id</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
-          <br />
-          <a href="#">HTML CSS</a>
         </div>
       </div>
     </div>
